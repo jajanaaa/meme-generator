@@ -1,0 +1,50 @@
+/* CARD */
+.App {
+  width: 550px;
+  height: 500px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+/* HEADER */
+.App .Header {
+  height: 65px;
+  background-color: var(--grey);
+  padding: 0 37px 0 20px;
+  border-radius: 5px 5px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.App .Header div {
+  display: flex;
+  gap: 7px;
+}
+
+.App .Header img {
+  width: 30px;
+  align-self: center;
+}
+
+.App .Header h1 {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: -10%;
+  color: var(--very-light-violet);
+}
+
+.App .Header h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  color: var(--very-light-violet);
+}
+
+/* FOR MOBILE */
+@media (max-width: 425px) {
+  .App {
+    width: 300px;
+  }
+}

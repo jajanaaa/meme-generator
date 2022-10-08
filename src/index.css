@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Karla:ital,wght@0,700;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --very-light-violet: #f0edf8;
+  --light-violet: #e8e4ff;
+  --violet: #a088ff;
+  --light-grey: #d5d4d8;
+  --grey: #302f34;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: var(--light-violet);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
