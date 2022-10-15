@@ -97,4 +97,7 @@ button:hover {
   .App {
     width: 300px;
   }
+  .App .Meme .meme-img {
+    max-width: 248px;
+  }
 }
