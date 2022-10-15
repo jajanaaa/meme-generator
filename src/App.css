@@ -42,19 +42,20 @@
   color: var(--very-light-violet);
 }
 
-main {
-  padding: 36px;
+/* MEME */
+.App .Meme {
+  display: flex;
+  flex-direction: column;
+  padding: 26px;
 }
 
-/* FORM */
-
-.App .Meme .top-inputs {
+.App .Meme .inputs {
   display: flex;
   gap: 17px;
   margin-bottom: 15px;
 }
 
-.App .Meme .top-inputs input {
+.App .Meme .inputs input {
   width: 100%;
   height: 35px;
   border-radius: 5px;
@@ -76,49 +77,21 @@ button {
   font-size: 16px;
   letter-spacing: -10%;
   color: var(--very-light-violet);
+  margin-bottom: 26px;
   cursor: pointer;
 }
 
-/* IMAGE */
+button:hover {
+  background-color: var(--dark-violet);
+}
+
 .App .Meme .meme-img {
+  margin: 0 auto;
   max-height: 268px;
+  max-width: 477px;
+  border-radius: 2px;
 }
 
-/* TEXT */
-.App .Meme .bottom-meme {
-  position: relative;
-}
-
-.App .Meme .meme-img {
-  max-width: 100%;
-  border-radius: 3px;
-}
-
-.App .Meme .meme-text {
-  position: absolute;
-  width: 80%;
-  text-align: center;
-  left: 50%;
-  transform: translateX(-50%);
-  margin: 15px 0;
-  padding: 0 5px;
-  font-family: impact, sans-serif;
-  font-size: 2em;
-  text-transform: uppercase;
-  color: white;
-  letter-spacing: 1px;
-  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
-    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
-    2px 2px 5px #000;
-}
-
-.bottom {
-  bottom: 0;
-}
-
-.top {
-  top: 0;
-}
 /* FOR MOBILE */
 @media (max-width: 425px) {
   .App {
