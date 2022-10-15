@@ -11,7 +11,7 @@ This is a pet project from Scrimba React Course. The purpose of this project was
 
 ### Screenshot
 
-![Screenshot](screenshot.png)
+![Screenshot](screenshot.jpg)
 
 ### Links
 
